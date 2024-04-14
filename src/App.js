@@ -26,7 +26,7 @@ function Modal(props) { //컴포넌트는 대분자
     <div className="modal" > 
         <h4>{props.작명[props.title]}</h4>
         <p>날짜</p>
-        <p>상세내용</p>
+        <p>상세내용d</p>
         <button onClick={()=>{props.글제목변경(['여자코트 추천', '강남 우동맛집', '파이썬 독학'])}}>글수정</button>
     </div>
   )
